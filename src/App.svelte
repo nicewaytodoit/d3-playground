@@ -3,8 +3,10 @@
 	import Pie from './pages/pie-chart/pie.svelte';
 	import Packman from './pages/packman-timer/packman.svelte';
 	import Pomodoro from './pages/pomodoro-timer/pomodoro.svelte';
+	import Africa from './pages/africa-tree-wall/africa.svelte';
+	// import Africa1 from './pages/africa-tree-wall/africa1.svelte';
 	import Home from './home.svelte';
-	export let name;
+	// export let name;
 	export let url = ""; 
 </script>
 
@@ -52,6 +54,7 @@
 					<Link to="/packman">Packman Timer</Link>
 					<Link to="/pomodoro">Pomodoro Timer</Link>
 				</nav>
+				<Africa />
 			</Route>
 		</div>
 	</Router>

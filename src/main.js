@@ -5,7 +5,7 @@ const app = new App({
 	props: {
 		name: 'world'
 	},
-	hydrate: true,
+	// hydrate: true,
 });
 
 export default app;
